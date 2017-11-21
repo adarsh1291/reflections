@@ -1,0 +1,44 @@
+1. How did viewing a diff between two files help you see the bug?
+
+	1. It prints only those lines which are different. This is esp. useful in files with large number of codes.
+	2. There are other helpful things like +,- to show what is added and removed. 
+
+2. How could have older versions make you an efficient programmer in the long run?
+
+New dev. could have bugs.
+When colloborating, other people might make mistakes/overwrite the code.
+When revisting code after a long time, easy to track the latest version.
+If project has different cycles/branches, each of them could be accurately located if there was history.
+Also, if multiple people are working together, can easily track who made changes where - which would be useful in so many ways
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pro:
+Logical breakpoints.
+Custom message to describe - makes it easier to look back
+Specifially Google Doc doesn't have offline versions
+
+Con:
+User error - too small or too much might make it harder
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because Git is specially built for the codes from group up and in coding, often you make change in multiple files (for when you're changing a module and all the files that'd call the module)
+
+5. How can you use the commands git log and git diff to view the history of files?
+
+git log gives us the list of commits, with the commit id and the commit name
+git diff id1 id2 gives us the changes between same in the two commits, highlighting the lines that were added/removed/changed
+
+6. How might using version control make you more confident to make changes that could break something?
+
+Using log and checkout, we can always go back to the earlier versions and track which commit has introduced the changes. 
+Also, using diff we can easily identify the lines changed to see where the bug is introduced
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+
+Organize the codes
+Store the various projects (esp. self learning courses) that I am working on in an organized manner and commit periodically
+In work, to keep track of my project dev.
+
+This would make me more organized, hassel free and not be afriad to make drastic code changes
