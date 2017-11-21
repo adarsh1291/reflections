@@ -8,3 +8,10 @@
 	Staging area is the intermediate stage. We push those files from working dir. to staging area, which we want to commit. 
 
 	We might not want to commit all the files in the working dir. Staging area allows us to 'stage' the files to commit.
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+	By adding and commit only those files that makes logical sense
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	When there's a new experimental feature that we aren't yet sure to be added to the main version, branches are helpful.
+	We can use branches by creating a new snapshot of the repo and make changes to do, without affecting the main (master) branch and then merge when we're ready
