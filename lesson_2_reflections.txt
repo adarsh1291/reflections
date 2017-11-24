@@ -13,5 +13,18 @@
 	By adding and commit only those files that makes logical sense
 
 4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-	When there's a new experimental feature that we aren't yet sure to be added to the main version, branches are helpful.
-	We can use branches by creating a new snapshot of the repo and make changes to do, without affecting the main (master) branch and then merge when we're ready
+	When there's a new experimental feature that we aren't yet sure to be added to the main version, or any context-switching where we want to work 
+	on something different,  branches are helpful. It helps in keeping the master branch as a production ready code and allow us to tinker our code.
+	We can use branches by creating a new snapshot of the repo and make changes without affecting the main (master) branch and then merge when we're ready
+
+5. How do the diagrams help you visualize the branch structure?
+	1. What's the parent commit of each branch/commit
+	2. Which commit is reachable and which is not
+	3. Where does the branch seperate from the master and where it merges back - esp. useful when there multiple branches 
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	It merges all the changes of the branch onto the checked out branch. The tip of the branch, will have the name based on what branch is currently checked out.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Pros: Easy. Don't have to manually look at all the lines. Esp useful when multiple people are working on the same code. 
+	Cons: This relies on certain assumptions and they have to understood by everyone, so an inadvertent change doesn't slip in 
