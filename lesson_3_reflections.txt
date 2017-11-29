@@ -7,12 +7,15 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-	I might want to update my repo with the changes only when I choose to and not whenever there's an update. This could be because I might be in middle of a code-change myself and don't want any conflicting changes to the same file from the remote.
+	I might want to update my repo with the changes only when I choose to and not whenever there's an update.
+	This could be because I might be in middle of a code-change myself and don't want any conflicting changes to the same file from the remote.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+	Fork: When you want to "clone" a repo from GitHub server of another useronto your own. This is purely remote and not connected to the local device.
+	Clone: When you want to copy a repo (with all its commits) from GitHub to your local device. (Clone can also be done from another local repo)
+	Branch: When you want to make changes (and keep track of it seperately) of your exsisting repo
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
