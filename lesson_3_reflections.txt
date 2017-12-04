@@ -20,14 +20,18 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+	When there's an update to the remote branch, we can have a copy of that. Then decide what we want to do with it (eg: merge)
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+	Easier to work on a code where it is being developed by multiple people. 
+	Or, even for a single develper, who is working on multiple features. 
+
+	Harder part are the ones when there's conflicts. But without GitHub, it'd be even harder.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
-
-    Fill in your answer here
+	
+	Whenever there's a seperate version/feature/bug, it's better to have it in a seperate branch
+	Changes at master branch should be minimal and only be done when it is a confirmed and universally being affected for all
